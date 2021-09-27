@@ -75,9 +75,9 @@ console.clear();
 // console.log(personas.length);
 for (let i = 0; i < personas.length; i++) {
     console.log("La persona ", personas[i].nombre, "tiene bloqueados a");
-    console.log(personas[i].bloqueados);
-    for (let i = 0; i < personas[i].bloqueados.length; i++) {
-
+    // console.log(personas[i].bloqueados);
+    for (let j = 0; j < personas[i].bloqueados.length; j++) {
+        console.log(personas[i].bloqueados[j].nombre);
     }
     console.log("----------------------------");
 }
