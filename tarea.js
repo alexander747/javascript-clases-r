@@ -134,7 +134,60 @@ let personas = [
     }
 ];
 
-//TALLER 
+for (let i = 0; i < personas.length; i++) {
+    //let mayor = 0;
+    let IDmayor = personas[i].bloqueados;
+
+    // console.log("el ID mayor de las personas bloqueadas por el usuario ", personas[i].nombre, "es el ==> ");
+
+
+    //console.log(personas[i].bloqueados);
+    for (let j = 0; j < IDmayor.length; j++) {
+        //let max = Math.max(IDmayor);
+
+        //console.log(max);
+
+        //console.log(IDmayor[j]); 
+        console.log(IDmayor[j].id, ">", 3)
+        if (IDmayor[j].id > IDmayor) {
+            IDmayor = IDmayor[j].id;
+            //console.log(IDmayor[j]);
+        }
+        //console.log(IDmayor);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        //if (IDmayor[j].id > 50) {
+        //mayor = mayor;
+    }
+
+
+}
+
+//TALLER
 // 1) sacar nombre y edad por consola ejemplo: eder tiene 26 años
 // 2) sacar el nombre y nombres de los que tiene bloqueados ejemplo: eder tiene bloqueados a jaime ana zule
 // 3) sacar cuantas de las personas bloqueadas tiene la misma edad ejemplo 8 bloqueados tienen 33 años 3 personas tienen 22 años 5 personas tienen 22 años
